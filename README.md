@@ -1,1 +1,2 @@
 # Milestone-5
+Weathermon is a Pokemon Go based weather application that seeks to incorporate functionality between the popular app Pokeon GO. This project is required to be built in the weathermon folder and begins by running pokeframe.java in the forms folder of this project. The API's that are used in this project is the "5 Day Weather Forecast" by openweathermap.org, geolocation api by openweathermap.org, and Pokeapi by Pokeapi.co
