@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany.visual2final</groupId>
+    <artifactId>Visual2Final</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <exec.mainClass>com.mycompany.visual2final.Visual2Final</exec.mainClass>
+    </properties>
+    <description>Make sure to add and implement:
+- abstract class
+- interface
+- subclass
+
+A Pokemon themed weather application that works in tandem with the
+game pokemon go. Besides providing that same features of weather
+applications which include telling the temperature of the day and what to expect
+in the upcoming days, this applicaiton will include what kind of pokemon one should
+be able to expect during said types of weather. Also a pokedex of chosen pokemon
+would be provided to give the user a more authentic experience with the game
+as well as a system where one can put see and manage and inventory of said pokemon.
+
+
+</description>
+    <build>
+            <resources>
+                <resource>
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>*.png</include>
+                    </includes>
+                </resource>
+            </resources>
+        </build>
+    <name>WeatherMon</name>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.external</groupId>
+            <artifactId>AbsoluteLayout</artifactId>
+            <version>RELEASE140</version>
+        </dependency>
+    </dependencies>
+</project>
